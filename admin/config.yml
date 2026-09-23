@@ -4,7 +4,7 @@ backend:
   branch: main
   auth_endpoint: https://github.com/login/oauth/authorize
 
-logo_url: https://raw.githubusercontent.com/citricssonvivot/citricssonvivot-web/main/images/logo.png
+logo_url: https://raw.githubusercontent.com/citricssonvivot/citricssonvivot-web/main/images/LOGO cítrics son vivot SENSE FONS.png
 
 media_folder: "images"
 public_folder: "/images"
