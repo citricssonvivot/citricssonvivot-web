@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cítricos y aguacates premium cultivados en Mallorca. Naranjas, limones, clementinas y aguacates Hass de la más alta calidad desde nuestras 16 hectáreas.">
+    <meta name="keywords" content="cítricos Mallorca, aguacates Hass, naranjas premium, limones frescos, agricultura sostenible, distribuidor mayorista">
+    <meta name="author" content="Cítrics Son Vivot">
+    <meta property="og:title" content="Cítrics Son Vivot - Cítricos y Aguacates Premium de Mallorca">
+    <meta property="og:description" content="Cultivo de cítricos y aguacates premium con 20 años de experiencia en nuestras 16 hectáreas en Inca, Mallorca.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://citricsonvivot.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cítrics Son Vivot - Cítricos y Aguacates Premium">
+    <meta name="twitter:description" content="Cítricos y aguacates frescos cultivados en Mallorca con tradición y profesionalismo.">
+
+    <title>Cítrics Son Vivot - Cítricos y Aguacates Premium de Mallorca</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Alice&family=Crimson+Text:wght@400;600&display=swap">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7YE0X72H6R"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-7YE0X72H6R');
+    </script>
+    <!-- Schema.org LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Cítrics Son Vivot",
+      "image": "https://www.citricssonvivot.com/images/logo.png",
+      "description": "Cultivo premium de cítricos y aguacates en Mallorca",
+      "telephone": "+34 68 247 68 68",
+      "email": "administracion@citricssonvivot.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Polígono 7, Parcela 507",
+        "addressLocality": "Inca",
+        "addressRegion": "Illes Balears",
+        "postalCode": "07300",
+        "addressCountry": "ES"
+      }
+    }
+    </script>
+
+    <style>
+        :root {
+            --color-primary: #6E7D4E;
+            --color-secondary: #AEB893;
+            --color-accent: #B8B6A3;
+            --color-terra: #B8B6A3;
+            --color-light: #F7F0E8;
+            --color-white: #FFFFFF;
+            --color-dark: #3A3A3A;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Alice', serif;
+            color: var(--color-dark);
+            background-color: #FFFFFF;
+            line-height: 1.7;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: #FBF9F6;
+        }
+
+        h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: #3A271B;
+        }
+
+        .section h2 {
+            color: #FBF9F6;
+        }
+
+        .btn-primary {
+            background-color: var(--color-primary);
+            color: var(--color-white);
+            padding: 16px 36px;
+            border-radius: 2px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.4s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+            font-family: 'Alice', serif;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--color-terra);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(184, 182, 163, 0.2);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--color-primary);
+            padding: 14px 32px;
+            border: 2px solid var(--color-primary);
+            border-radius: 2px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.4s ease;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--color-primary);
+            color: var(--color-white);
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: var(--color-white);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 24px;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--color-primary);
+            letter-spacing: 1px;
+        }
+
+        .logo-img {
+            width: 44px;
+            height: 44px;
+            margin-right: 12px;
+            display: inline-block;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 40px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--color-dark);
+            font-weight: 500;
+            font-size: 14px;
+            letter-spacing: 0.3px;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--color-primary);
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                gap: 20px;
+                font-size: 13px;
+            }
+        }
+
+        .hero {
+            background-color: var(--color-primary);
+            color: var(--color-white);
+            padding: 120px 24px 80px;
+            text-align: center;
+            min-height: 520px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-logo {
+            width: 180px;
+            height: 180px;
+            margin: 0 auto 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-logo img {
+            filter: brightness(0) invert(1);
+        }
+
+        .hero h1 {
+            font-size: 56px;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 40px;
+            max-width: 600px;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                padding: 80px 20px 60px;
+                min-height: 400px;
+            }
+            .hero h1 {
+                font-size: 36px;
+            }
+            .hero p {
+                font-size: 16px;
+            }
+            .hero-logo {
+                width: 130px;
+                height: 130px;
+                margin-bottom: 30px;
+            }
+        }
+
+        .section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 100px 24px;
+        }
+
+        .section h2 {
+            font-size: 42px;
+            margin-bottom: 16px;
+            color: #3A271B;
+            text-align: center;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #8B8B8B;
+            margin-bottom: 60px;
+            font-size: 17px;
+            max-width: 650px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 300;
+            line-height: 1.8;
+        }
+
+        .section-alt {
+            background-color: #AEBB93;
+        }
+
+        .section-alt h2 {
+            color: #FFFFFF !important;
+        }
+
+        .section-alt h3 {
+            color: #FFFFFF;
+        }
+
+        .section-alt .subtitle-uppercase {
+            color: #6E7D4E !important;
+        }
+
+        .section-alt p,
+        .section-alt .section-subtitle,
+        .section-alt .variety-info {
+            color: #FFFFFF;
+        }
+
+        .section-alt .product-info p {
+            color: #3A271B !important;
+        }
+
+        .section-alt .variety-harvest {
+            color: #3A271B !important;
+        }
+
+        .highlight-product {
+            color: #6E7D4E;
+            font-weight: 600;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .about-image {
+            width: 100%;
+            aspect-ratio: 4/3;
+            background-color: #AEBB93;
+            border: 2px solid var(--color-terra);
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #FFFFFF;
+            font-size: 18px;
+            text-align: center;
+            padding: 32px;
+            min-height: 300px;
+        }
+
+        .about-text p {
+            font-size: 16px;
+            margin-bottom: 24px;
+            line-height: 1.9;
+            color: #5A5A5A;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            margin-top: 40px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 32px 24px;
+            background-color: #FBF9F6;
+            border-radius: 0;
+            border-left: 4px solid #B8B6A3;
+            border-top: 2px solid #B8B6A3;
+        }
+
+        .stat-number {
+            font-size: 38px;
+            font-weight: 700;
+            color: var(--color-primary);
+            font-family: 'Playfair Display', serif;
+        }
+
+        .stat-label {
+            color: var(--color-dark);
+            font-size: 14px;
+            margin-top: 10px;
+            letter-spacing: 0.5px;
+        }
+
+        @media (max-width: 768px) {
+            .about-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            .stats {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .section-alt {
+            background-color: #AEBB93;
+            border-top: 3px solid var(--color-terra);
+        }
+
+        .products-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 32px;
+            margin-bottom: 60px;
+        }
+
+        .product-expandable {
+            background-color: var(--color-white);
+            border: 1px solid #E8E8E8;
+            border-top: 3px solid #B8B6A3;
+            border-left: 4px solid #B8B6A3;
+            border-radius: 0;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+        }
+
+        .product-expandable:hover {
+            box-shadow: 0 12px 32px rgba(110, 125, 78, 0.15);
+            transform: translateY(-4px);
+        }
+
+        .product-header {
+            padding: 32px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+        }
+
+        .product-header:hover {
+            background-color: rgba(110, 125, 78, 0.02);
+        }
+
+        .product-title-group {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
+
+        .product-icon {
+            width: 60px;
+            height: 60px;
+            color: var(--color-primary);
+            flex-shrink: 0;
+        }
+
+        .product-info h3 {
+            font-size: 22px;
+            color: var(--color-primary);
+            margin-bottom: 8px;
+        }
+
+        .product-info p {
+            font-size: 14px;
+            color: #8B8B8B;
+        }
+
+        .expand-icon {
+            font-size: 24px;
+            color: var(--color-primary);
+            transition: transform 0.3s ease;
+            flex-shrink: 0;
+        }
+
+        .product-expandable.expanded .expand-icon {
+            transform: rotate(180deg);
+        }
+
+        .product-varieties {
+            display: none;
+            padding: 0 32px 32px 32px;
+            border-top: 1px solid #E8E8E8;
+            background-color: #AEBB93;
+        }
+
+        .product-expandable.expanded .product-varieties {
+            display: block;
+            animation: slideDown 0.3s ease;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .variety-item {
+            padding: 16px 0;
+            border-bottom: 1px solid #D4D4D4;
+        }
+
+        .section-alt .variety-item {
+            border-bottom-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .variety-item:last-child {
+            border-bottom: none;
+        }
+
+        .variety-name {
+            font-weight: 600;
+            color: #FFFFFF;
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+
+        .variety-info {
+            font-size: 14px;
+            color: #6B6B6B;
+            line-height: 1.6;
+        }
+
+        .variety-harvest {
+            font-size: 13px;
+            color: var(--color-secondary);
+            margin-top: 6px;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            .products-container {
+                grid-template-columns: 1fr;
+            }
+            .product-header {
+                padding: 24px;
+            }
+            .product-title-group {
+                gap: 16px;
+            }
+            .product-icon {
+                width: 48px;
+                height: 48px;
+            }
+            .product-info h3 {
+                font-size: 18px;
+            }
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 0;
+            aspect-ratio: 1 / 1;
+            background-color: var(--color-primary);
+            border: 1px solid var(--color-secondary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.4s ease;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.02);
+        }
+
+        .gallery-content {
+            text-align: center;
+            color: var(--color-white);
+        }
+
+        .gallery-icon {
+            width: 56px;
+            height: 56px;
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .gallery-label {
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: 0.3px;
+        }
+
+        @media (max-width: 768px) {
+            .gallery-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .contact-section {
+            background-color: #F0EDE7;
+        }
+
+        .contact-section p,
+        .contact-section .contact-text p,
+        .contact-section .contact-text a {
+            color: #755A3D;
+        }
+
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 100px 24px;
+        }
+
+        .contact-container h2 {
+            margin-bottom: 32px;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form select {
+            padding: 16px 18px;
+            border: 1px solid #D4D4D4;
+            border-radius: 0;
+            font-family: 'Alice', serif;
+            font-size: 15px;
+            background-color: #FFFFFF;
+            transition: border-color 0.3s ease;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus,
+        .contact-form select:focus {
+            outline: none;
+            border-color: var(--color-primary);
+            box-shadow: 0 0 0 3px rgba(110, 125, 78, 0.08);
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+            min-height: 140px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 48px;
+        }
+
+        .contact-info h3 {
+            font-size: 18px;
+            color: #3A271B;
+            margin-bottom: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            border-bottom: 2px solid #B8B6A3;
+            padding-bottom: 12px;
+        }
+
+        .contact-item {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .contact-icon {
+            font-size: 28px;
+            color: var(--color-primary);
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .contact-text {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .contact-text p {
+            font-size: 15px;
+            color: #6B6B6B;
+            line-height: 1.7;
+        }
+
+        .contact-text a {
+            color: var(--color-primary);
+            text-decoration: none;
+            font-weight: 400;
+            transition: color 0.3s ease;
+        }
+
+        .contact-text a:hover {
+            color: var(--color-accent);
+        }
+
+        @media (max-width: 768px) {
+            .contact-container {
+                grid-template-columns: 1fr;
+                gap: 40px;
+                padding: 80px 24px;
+            }
+        }
+
+        footer {
+            background-color: var(--color-primary);
+            color: var(--color-white);
+            padding: 48px 24px;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-content p {
+            font-size: 14px;
+            letter-spacing: 0.3px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+        }
+
+        .footer-links a {
+            color: var(--color-white);
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+            opacity: 0.8;
+        }
+
+        .footer-links a:hover {
+            color: var(--color-secondary);
+            opacity: 1;
+        }
+
+        @media (max-width: 768px) {
+            .footer-content {
+                flex-direction: column;
+                gap: 24px;
+                text-align: center;
+            }
+        }
+
+        .form-success {
+            display: none;
+            background-color: #D4EDDA;
+            color: #155724;
+            padding: 16px;
+            border-radius: 0;
+            text-align: center;
+            margin-bottom: 20px;
+            border-left: 4px solid #28A745;
+        }
+
+        .form-success.show {
+            display: block;
+        }
+
+        input[type="submit"] {
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 8px;
+        }
+
+        .section h2 {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .subtitle-uppercase {
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            font-weight: 600;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--color-primary);
+            margin: 56px 0 40px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- NAVEGACIÓN -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="/images/logo.png" alt="Cítrics Son Vivot" class="logo-img">
+                CÍTRICS SON VIVOT
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Sobre Nosotros</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+        <div class="hero-logo">
+            <img src="/images/logo.png" alt="Cítrics Son Vivot" style="width: 100%; height: 100%; object-fit: contain;">
+        </div>
+        <h1>El que cultivam no és només fruita: és memòria, és territori, és futur</h1>
+        <p>Fruta que crece en la tierra, se cultiva con las manos de la familia, y llega a tu mesa con el respeto que merece cada tiempo</p>
+        <button class="btn-primary" onclick="document.getElementById('contacto').scrollIntoView({ behavior: 'smooth' }); gtag('event', 'hero_cta_click');">Solicitar Catálogo</button>
+    </section>
+
+    <!-- SOBRE NOSOTROS -->
+    <section id="nosotros" class="section">
+        <h2>Sobre Nosotros</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>En <strong>Cítrics Son Vivot</strong>, llevamos más de 20 años dedicados al cultivo de <span class="highlight-product">cítricos y aguacates</span> de la más alta calidad en nuestras 16 hectáreas en el corazón de Mallorca. <em>"De pare a gendre i de pare a filla"</em> —así es como ha crecido nuestra familia en estos campos, transmitiendo conocimiento, pasión y compromiso a través de generaciones.</p>
+                <p>Nuestro compromiso es simple: <em>"La nostra terra, les mans de la família"</em>. Cada fruto que sale de nuestros campos ha sido seleccionado, clasificado y cuidado con la máxima dedicación para llegar a tu mesa en perfectas condiciones. La tierra nos ha dado todo, y nosotros trabajamos cada día para respetarla.</p>
+                <p>Somos un equipo de profesionales que entiende que la agricultura es un arte y una responsabilidad. Trabajamos respetuosamente con la naturaleza, manteniendo prácticas sostenibles que garantizan la continuidad de nuestros campos para futuras generaciones.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-number">16</div>
+                        <div class="stat-label">Hectáreas de cultivo</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">20+</div>
+                        <div class="stat-label">Años de experiencia</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Generaciones de familia</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <div style="text-align: center;">
+                    <p style="font-size: 16px; margin-bottom: 16px;">📷 Foto de la empresa</p>
+                    <p style="font-size: 14px; line-height: 1.6;">Reemplaza este espacio con tu foto de la empresa, equipos de trabajo, o campos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NUESTRA FINCA -->
+    <section id="finca" class="section">
+        <h2>Nuestra Finca</h2>
+        <p class="section-subtitle">16 hectáreas de cultivo en el corazón de Mallorca, donde la tradición familiar y la innovación sostenible conviven en armonía.</p>
+        <div style="margin-top: 40px; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(110, 125, 78, 0.15);">
+            <img src="/images/finca-aerea.jpg" alt="Nuestra finca aérea" style="width: 100%; height: auto; display: block;">
+        </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section id="productos" class="section section-alt">
+        <h2>Nuestros Productos</h2>
+        <p class="section-subtitle"><em>"El secret de la fruita bona és respectar els seus temps."</em> Selección cuidadosa de las mejores variedades, clasificadas por calibre y maduración óptima. Haz clic para conocer más sobre cada fruto.</p>
+
+        <h3 class="subtitle-uppercase">CÍTRICOS</h3>
+        <div class="products-container">
+            <!-- NARANJAS -->
+            <div class="product-expandable" id="product-naranjas">
+                <div class="product-header" onclick="toggleProduct(this)">
+                    <div class="product-title-group">
+                        <svg class="product-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="40" cy="40" r="28" stroke="currentColor" stroke-width="2"/>
+                            <path d="M40 12 L40 68" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M12 40 L68 40" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M20 20 L60 60" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M60 20 L20 60" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M50 8 Q55 4 60 8 Q55 12 50 8" fill="currentColor" opacity="0.8"/>
+                            <path d="M60 6 Q67 2 72 8" stroke="currentColor" stroke-width="1.8" fill="none"/>
+                        </svg>
+                        <div class="product-info">
+                            <h3>Naranjas</h3>
+                            <p>7 variedades con recogida escalonada todo el año</p>
+                        </div>
+                    </div>
+                    <div class="expand-icon">▼</div>
+                </div>
+                <div class="product-varieties">
+                    <div class="variety-item">
+                        <div class="variety-name">New Hall / Navelina</div>
+                        <div class="variety-info">Naranja de ombligo con perfil dulce y jugoso. Ideal para consumo directo y mercado fresco.</div>
+                        <div class="variety-harvest">📅 Recogida: Octubre - Enero</div>
+                    </div>
+                    <div class="variety-item">
+                        <div class="variety-name">Navelate</div>
+                        <div class="variety-info">Variedad de maduración tardía, carne jugosa y color rojo intenso. Excelente para exportación.</div>
+                        <div class="variety-harvest">📅 Recogida: Enero - Marzo</div>
+                    </div>
+                    <div class="variety-item">
+                        <div class="variety-name">Lanelate</div>
+                        <div class="variety-info">Naranja sin semillas con calibre grande y carne firme. Perfecta para distribuidores mayoristas.</div>
+                        <div class="variety-harvest">📅 Recogida: Febrero - Abril</div>
+                    </div>
+                    <div class="variety-item">
+                        <div class="variety-name">Chislett</div>
+                        <div class="variety-info">Variedad robusta con excelente persistencia en árbol. Sabor equilibrado y acidez moderada.</div>
+                        <div class="variety-harvest">📅 Recogida: Abril - Junio</div>
+                    </div>
+                    <div class="variety-item">
+                        <div class="variety-name">Navel Powell</div>
+                        <div class="variety-info">Naranja de calibre medio con gran producción. Ideal para mercados de volumen.</div>
+                        <div class="variety-harvest">📅 Recogida: Abril - Junio</div>
+                    </div>
+                    <div class="variety-item">
+                        <div class="variety-name">Barnfield</div>
+                        <div class="variety-info">Variedad tardía con carne firme y sabor dulce. Excelente resistencia al transporte.</div>
+                        <div class="variety-harvest">📅 Recogida: Abril - Junio</div>
+                    </div>
+                    <div class="variety-item">
+                        <div class="variety-name">Valencia</div>
+                        <div class="variety-info">La reina de las naranjas. Excelente para zumo con alto contenido en azúcares. Variedad más demandada globalmente.</div>
+                        <div class="variety-harvest">📅 Recogida: Mayo - Julio</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CLEMENTINA -->
+            <div class="product-expandable" id="product-clementina">
+                <div class="product-header" onclick="toggleProduct(this)">
+                    <div class="product-title-group">
+                        <svg class="product-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="40" cy="42" r="26" stroke="currentColor" stroke-width="2"/>
+                            <path d="M40 16 L40 68" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M14 42 L66 42" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M22 24 L58 60" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M58 24 L22 60" stroke="currentColor" stroke-width="1.5"/>
+                            <circle cx="40" cy="42" r="8" stroke="currentColor" stroke-width="1" opacity="0.6"/>
+                            <path d="M48 10 Q52 5 57 10" fill="currentColor" opacity="0.8"/>
+                        </svg>
+                        <div class="product-info">
+                            <h3>Clementinas</h3>
+                            <p>2 variedades de mandarina sin semillas con sabor supremo</p>
+                        </div>
+                    </div>
+                    <div class="expand-icon">▼</div>
+                </div>
+                <div class="product-varieties">
+                    <div class="variety-item">
+                        <div class="variety-name">Clementina Clemenules</div>
+                        <div class="variety-info">Fruta pequeña, muy dulce, aromática y sin semillas. Ideal para consumo en fresco y mercado premium. Cáscara fácil de pelar.</div>
+                        <div class="variety-harvest">📅 Recogida: Octubre - Diciembre</div>
+                    </div>
+                    <div class="variety-item">
+                        <div class="variety-name">Clementina Oronules</div>
+                        <div class="variety-info">Variedad tardía de clementina con excelente sabor. Fruta de calibre mediano-grande, muy dulce y aromática. Excelente persistencia en árbol.</div>
+                        <div class="variety-harvest">📅 Recogida: Octubre - Diciembre</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LIMONES -->
+            <div class="product-expandable" id="product-limones">
+                <div class="product-header" onclick="toggleProduct(this)">
+                    <div class="product-title-group">
+                        <svg class="product-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="40" cy="45" rx="24" ry="26" stroke="currentColor" stroke-width="2"/>
+                            <path d="M40 19 L40 71" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M16 45 L64 45" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M24 29 L56 61" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M56 29 L24 61" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M48 10 Q54 6 60 12" stroke="currentColor" stroke-width="1.8" fill="none"/>
+                            <path d="M52 8 Q58 3 64 10" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+                        </svg>
+                        <div class="product-info">
+                            <h3>Limones</h3>
+                            <p>3 variedades disponibles todo el año, desverditzadas en verano</p>
+                        </div>
+                    </div>
+                    <div class="expand-icon">▼</div>
+                </div>
+                <div class="product-varieties">
+                    <div class="variety-item">
+                        <div class="variety-name">Limón Fina</div>
+                        <div class="variety-info">Variedad clásica española con acidez equilibrada. Cáscara fina y calibre medio. Ideal para hostelería y distribución profesional.</div>
+                        <div class="variety-harvest">📅 Disponibilidad: Año redondo (desverditzada en verano)</div>
+                    </div>
+                    <div class="variety-item">
+                        <div class="variety-name">Limón Verna</div>
+                        <div class="variety-info">Fruta gruesa con calibre grande y elevado contenido en zumo. Rendimiento superior para industria de zumo.</div>
+                        <div class="variety-harvest">📅 Disponibilidad: Año redondo (desverditzada en verano)</div>
+                    </div>
+                    <div class="variety-item">
+                        <div class="variety-name">Limón Eureka</div>
+                        <div class="variety-info">Variedad de producción continua con excelente aroma. Óptimo para mercados internacionales y conservación a largo plazo.</div>
+                        <div class="variety-harvest">📅 Disponibilidad: Año redondo (desverditzada en verano)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LIMA -->
+            <div class="product-expandable" id="product-lima">
+                <div class="product-header" onclick="toggleProduct(this)">
+                    <div class="product-title-group">
+                        <svg class="product-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="40" cy="40" rx="22" ry="26" stroke="currentColor" stroke-width="2"/>
+                            <path d="M40 14 L40 66" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M18 40 L62 40" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M26 20 L54 60" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M54 20 L26 60" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M48 8 Q54 4 60 10" stroke="currentColor" stroke-width="1.8" fill="none"/>
+                            <circle cx="40" cy="40" r="6" stroke="currentColor" stroke-width="1" opacity="0.4"/>
+                        </svg>
+                        <div class="product-info">
+                            <h3>Lima</h3>
+                            <p>Cítrico tropical con aroma intenso</p>
+                        </div>
+                    </div>
+                    <div class="expand-icon">▼</div>
+                </div>
+                <div class="product-varieties">
+                    <div class="variety-item">
+                        <div class="variety-name">Lima</div>
+                        <div class="variety-info">Fruta mediana sin semillas con zumo de sabor intenso y aromático. Perfecta para bebidas y gastronomía gourmet. Demanda creciente en hostelería premium.</div>
+                        <div class="variety-harvest">📅 Disponibilidad: Junio - Octubre</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- POMELO -->
+            <div class="product-expandable" id="product-pomelo">
+                <div class="product-header" onclick="toggleProduct(this)">
+                    <div class="product-title-group">
+                        <svg class="product-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="40" cy="40" r="30" stroke="currentColor" stroke-width="2"/>
+                            <path d="M40 10 L40 70" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M10 40 L70 40" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M18 18 L62 62" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M62 18 L18 62" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M48 6 Q54 2 60 8" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                        <div class="product-info">
+                            <h3>Pomelo</h3>
+                            <p>Fruta de calibre XXL para mercados premium</p>
+                        </div>
+                    </div>
+                    <div class="expand-icon">▼</div>
+                </div>
+                <div class="product-varieties">
+                    <div class="variety-item">
+                        <div class="variety-name">Pomelo Rosa / Rojo</div>
+                        <div class="variety-info">Fruta de gran calibre con carne roja intenso y sabor agridulce. Alto contenido en vitaminas y antioxidantes. Ideal para mercados de salud y bienestar.</div>
+                        <div class="variety-harvest">📅 Recogida: Noviembre - Mayo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="subtitle-uppercase">AGUACATES</h3>
+        <div class="products-container">
+            <!-- AGUACATES -->
+            <div class="product-expandable" id="product-aguacates">
+                <div class="product-header" onclick="toggleProduct(this)">
+                    <div class="product-title-group">
+                        <svg class="product-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="40" cy="42" rx="22" ry="28" stroke="currentColor" stroke-width="2"/>
+                            <ellipse cx="40" cy="42" rx="12" ry="16" stroke="currentColor" stroke-width="2"/>
+                            <path d="M40 14 L40 70" stroke="currentColor" stroke-width="1"/>
+                            <path d="M28 42 L52 42" stroke="currentColor" stroke-width="1"/>
+                            <path d="M48 10 Q54 6 60 12" stroke="currentColor" stroke-width="1.8" fill="none"/>
+                        </svg>
+                        <div class="product-info">
+                            <h3>Aguacates</h3>
+                            <p>3 variedades de aguacate premium certificado</p>
+                        </div>
+                    </div>
+                    <div class="expand-icon">▼</div>
+                </div>
+                <div class="product-varieties">
+                    <div class="variety-item">
+                        <div class="variety-name">Aguacate Baco</div>
+                        <div class="variety-info">Variedad de maduración precoz con calibre mediano. Pulpa de color verde pálido y sabor fino. Excelente para mercados que demandan disponibilidad temprana.</div>
+                        <div class="variety-harvest">📅 Recogida: Septiembre</div>
+                    </div>
+                    <div class="variety-item">
+                        <div class="variety-name">Aguacate Hass</div>
+                        <div class="variety-info">Variedad más cultivada mundialmente. Pulpa cremosa con excelente sabor. Piel oscura rugosa muy característica. Rendimiento óptimo post-cosecha. Demanda muy alta en mercados internacionales.</div>
+                        <div class="variety-harvest">📅 Recogida: Octubre - Febrero</div>
+                    </div>
+                    <div class="variety-item">
+                        <div class="variety-name">Aguacate Lamb Hass</div>
+                        <div class="variety-info">Variedad mejorada del Hass con fruto más grande y mayores rendimientos. Pulpa extra cremosa con ácidos grasos monoinsaturados. Textura mantecosa premium.</div>
+                        <div class="variety-harvest">📅 Recogida: Octubre - Febrero</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="section">
+        <h2 class="subtitle-uppercase">Nuestros Campos</h2>
+        <p class="section-subtitle">Una galería visual de nuestras plantaciones, procesos y el cuidado que dedicamos a cada cosecha</p>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <div class="gallery-content">
+                    <svg class="gallery-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M40 15 L45 35 L65 35 L50 48 L55 68 L40 55 L25 68 L30 48 L15 35 L35 35 Z" stroke="white" stroke-width="1.5" fill="none"/>
+                        <circle cx="40" cy="50" r="22" stroke="white" stroke-width="1" opacity="0.5"/>
+                    </svg>
+                    <div class="gallery-label">Campo de cítricos</div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-content">
+                    <svg class="gallery-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="40" cy="40" r="28" stroke="white" stroke-width="2"/>
+                        <path d="M40 12 L40 68" stroke="white" stroke-width="1.5"/>
+                        <path d="M12 40 L68 40" stroke="white" stroke-width="1.5"/>
+                        <path d="M20 20 L60 60" stroke="white" stroke-width="1.5"/>
+                        <path d="M60 20 L20 60" stroke="white" stroke-width="1.5"/>
+                        <path d="M50 8 Q55 4 60 8" fill="white" opacity="0.8"/>
+                    </svg>
+                    <div class="gallery-label">Cosecha de naranjas</div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-content">
+                    <svg class="gallery-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="40" cy="42" rx="22" ry="28" stroke="white" stroke-width="2"/>
+                        <ellipse cx="40" cy="42" rx="12" ry="16" stroke="white" stroke-width="2"/>
+                        <path d="M40 14 L40 70" stroke="white" stroke-width="1"/>
+                        <path d="M48 10 Q54 6 60 12" stroke="white" stroke-width="1.8" fill="none"/>
+                    </svg>
+                    <div class="gallery-label">Aguacates frescos</div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-content">
+                    <svg class="gallery-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M30 50 Q30 40 40 35 Q50 40 50 50 L50 65 L30 65 Z" stroke="white" stroke-width="1.8"/>
+                        <line x1="35" y1="45" x2="35" y2="60" stroke="white" stroke-width="1"/>
+                        <line x1="40" y1="42" x2="40" y2="60" stroke="white" stroke-width="1"/>
+                        <line x1="45" y1="45" x2="45" y2="60" stroke="white" stroke-width="1"/>
+                        <path d="M35 32 Q38 25 40 20 Q42 25 45 32" stroke="white" stroke-width="1.5" fill="none"/>
+                    </svg>
+                    <div class="gallery-label">Producción integrada</div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-content">
+                    <svg class="gallery-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="20" y="18" width="40" height="44" stroke="white" stroke-width="2" rx="2"/>
+                        <line x1="20" y1="30" x2="60" y2="30" stroke="white" stroke-width="1.5"/>
+                        <line x1="20" y1="42" x2="60" y2="42" stroke="white" stroke-width="1.5"/>
+                        <line x1="20" y1="54" x2="60" y2="54" stroke="white" stroke-width="1.5"/>
+                        <path d="M40 8 L40 14" stroke="white" stroke-width="2"/>
+                    </svg>
+                    <div class="gallery-label">Control de calidad</div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-content">
+                    <svg class="gallery-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M40 12 L50 32 L72 38 L56 52 L60 74 L40 62 L20 74 L24 52 L8 38 L30 32 Z" stroke="white" stroke-width="1.5" fill="none"/>
+                    </svg>
+                    <div class="gallery-label">Elaboraciones a partir de nuestros productos</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contact-section">
+        <div class="contact-container">
+            <div>
+                <h2 style="color: #6E7D4E;">CONTACTA CON NOSOTROS</h2>
+                <form class="contact-form" action="https://formsubmit.co/administracion@citricssonvivot.com" method="POST">
+                    <!-- Honeypot para evitar spam -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <!-- Retorno a la página después del envío -->
+                    <input type="hidden" name="_next" value="https://citricsonvivot.com/#contacto">
+
+                    <input type="text" name="nombre" placeholder="Tu nombre" required style="padding: 16px 18px; border: 1px solid #D4D4D4; border-radius: 0; font-family: 'Lora', serif; font-size: 15px; background-color: var(--color-white);">
+                    <input type="email" name="email" placeholder="Tu email" required style="padding: 16px 18px; border: 1px solid #D4D4D4; border-radius: 0; font-family: 'Lora', serif; font-size: 15px; background-color: var(--color-white);">
+                    <input type="tel" name="telefono" placeholder="Tu teléfono (opcional)" style="padding: 16px 18px; border: 1px solid #D4D4D4; border-radius: 0; font-family: 'Lora', serif; font-size: 15px; background-color: var(--color-white);">
+                    <select name="asunto" required style="padding: 16px 18px; border: 1px solid #D4D4D4; border-radius: 0; font-family: 'Lora', serif; font-size: 15px; background-color: var(--color-white);">
+                        <option value="">Selecciona un asunto</option>
+                        <option value="Solicitud de catálogo">Solicitud de catálogo</option>
+                        <option value="Información de productos">Información de productos</option>
+                        <option value="Distribuidor mayorista">Distribuidor mayorista</option>
+                        <option value="Restaurante/Hostelería">Restaurante/Hostelería</option>
+                        <option value="Consulta general">Consulta general</option>
+                    </select>
+                    <textarea name="mensaje" placeholder="Tu mensaje..." required style="padding: 16px 18px; border: 1px solid #D4D4D4; border-radius: 0; font-family: 'Lora', serif; font-size: 15px; background-color: var(--color-white); resize: vertical; min-height: 140px;"></textarea>
+                    <input type="submit" value="Enviar Mensaje" class="btn-primary" onclick="gtag('event', 'form_submission');">
+                </form>
+            </div>
+            <div class="contact-info">
+                <div>
+                    <h3>Un equip que és família</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-text">
+                            <p><strong style="color: #6E7D4E;">Teléfono</strong></p>
+                            <a href="tel:+34682476868">+34 68 247 68 68</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3>Correo Electrónico</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-text">
+                            <p><strong style="color: #6E7D4E;">Email</strong></p>
+                            <a href="mailto:administracion@citricssonvivot.com">administracion@citricssonvivot.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3>Ubicación</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-text">
+                            <p><strong style="color: #6E7D4E;">Dirección</strong></p>
+                            <p>Polígono 7, Parcela 507<br>Inca, Mallorca<br>Illes Balears, 07300<br>España</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3>Horario de Atención</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">🕐</div>
+                        <div class="contact-text">
+                            <p><strong style="color: #6E7D4E;">Lunes a Viernes</strong></p>
+                            <p>07:00 - 15:00 CET</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2018-2026 Cítrics Son Vivot. Todos los derechos reservados. | <em>Benvinguts i benvingudes a la nostra finca</em></p>
+            <ul class="footer-links">
+                <li><a href="https://instagram.com/citricssonvivot" target="_blank">📱 Instagram</a></li>
+                <li><a href="#contacto">📧 Contacto</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        function toggleProduct(element) {
+            const container = element.closest('.product-expandable');
+            container.classList.toggle('expanded');
+            gtag('event', 'product_expansion', {
+                'product_name': container.id
+            });
+        }
+
+        // Rastreo de scroll profundo
+        let scrollTracked = false;
+        window.addEventListener('scroll', () => {
+            const scrollPercentage = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+            if (scrollPercentage > 50 && !scrollTracked) {
+                scrollTracked = true;
+                gtag('event', 'scroll_50_percent');
+            }
+        });
+    </script>
+</body>
+</html>
